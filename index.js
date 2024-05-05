@@ -15,8 +15,8 @@ const titleCased = () => {
   const sentences = tutorials.map((sentence => sentence.split(" ")));
  
    for (let word of sentences){
-    for (let item=0;item<word.length;item++){
-     word[item] = (word[item].charAt(0).toUpperCase() + word[item].slice(1));
+    for (let num=0;num<word.length;num++){
+     word[num] = (word[num].charAt(0).toUpperCase() + word[num].slice(1));
      }
    }
   
